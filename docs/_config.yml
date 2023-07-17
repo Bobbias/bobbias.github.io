@@ -19,24 +19,35 @@
 # in the templates via {{ site.myvariable }}.
 
 title: bobbias.github.io 
-name: bobbias.github.io
-email: bobbias@gmail.com
+author: "Blair Stacey"
 description: My github pages site
-github_username: bobbias
 
+email: bobbias@gmail.com
+github_username: bobbias
 repository: https://github.com/bobbias/bobbias.github.io
+
 baseurl: "/docs"
 timezone: America/Toronto
-theme: minima
+
+theme: "minima"
+
+rss: rss
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
 minima:
   skin: dark
   plugins:
   - jekyll-feed
   social_links:
     - { platform: github,  user_url: "https://github.com/bobbias" }
-author:
-  name: Blair Stacey
-  email: "bobbias@gmail.com"
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
 collections:
   posts:
     permalink: "/posts/:year/:month/:day/:title"
@@ -44,9 +55,9 @@ collections:
 defaults:
   - scope:
       path: _posts
-      type: posts
+      type: post
     values:
-      layout: posts
+      layout: post
 
 # Exclude from processing.
 # The following items will not be processed, by default.
