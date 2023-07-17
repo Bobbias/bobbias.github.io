@@ -1,0 +1,6 @@
+- title: Home
+  link: /
+  show_on_mobile: true
+- title: Posts
+  link: /posts/
+  show_on_mobile: true
