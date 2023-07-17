@@ -28,13 +28,17 @@ repository: https://github.com/bobbias/bobbias.github.io
 
 timezone: America/Toronto
 
-theme: "minima"
 
 rss: rss
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
+
+# theme: "minima"
 
 minima:
   skin: dark
