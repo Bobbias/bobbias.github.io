@@ -26,7 +26,6 @@ email: bobbias@gmail.com
 github_username: bobbias
 repository: https://github.com/bobbias/bobbias.github.io
 
-baseurl: "/docs"
 timezone: America/Toronto
 
 theme: "minima"
