@@ -1,6 +1,8 @@
+---
 layout: page
 title: "index"
 permalink: /index
+---
 # Main Title
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ultrices est. In interdum, purus in efficitur dignissim, mi leo bibendum ipsum, ac pretium lectus diam id sem. Phasellus accumsan lacus elit, at consequat odio pellentesque a. In sollicitudin aliquet faucibus. Vestibulum id ligula quis sem euismod convallis et vel erat. Vivamus eu magna lorem. Etiam convallis vestibulum scelerisque. Suspendisse potenti.
