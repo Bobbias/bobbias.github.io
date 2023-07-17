@@ -1,0 +1,10 @@
+theme: minima
+
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/bobbias" }
+
+author:
+  name: Blair Stacey
+  email: "bobbias@gmail.com"
